@@ -1,6 +1,7 @@
 package com.g414.guice.lifecycle;
 
-public abstract class LifecycleSupportBase implements LifecycleAware {
+public abstract class LifecycleSupportBase implements LifecycleRegistration,
+        LifecycleAware {
     @Override
     public void register(Lifecycle lifecycle) {
         lifecycle.register(this);
