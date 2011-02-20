@@ -2,6 +2,10 @@ package com.g414.guice.lifecycle;
 
 import com.google.inject.AbstractModule;
 
+/**
+ * The LifecycleModule is a Guice module that installs the Lifecycle instance
+ * into the Guice context.
+ */
 public class LifecycleModule extends AbstractModule {
     @Override
     protected void configure() {

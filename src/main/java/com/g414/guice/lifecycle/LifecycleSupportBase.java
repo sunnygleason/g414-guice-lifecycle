@@ -1,5 +1,9 @@
 package com.g414.guice.lifecycle;
 
+/**
+ * Abstract base class to make it easy to implement Lifecycle support by only
+ * overriding one or two methods.
+ */
 public abstract class LifecycleSupportBase implements LifecycleRegistration,
         LifecycleAware {
     @Override
